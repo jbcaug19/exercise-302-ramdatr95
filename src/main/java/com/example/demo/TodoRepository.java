@@ -2,5 +2,5 @@ package com.example.demo;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface JobRepository extends CrudRepository<HomeController.Job, Long> {
+public interface TodoRepository extends CrudRepository<Todo, Long> {
 }
